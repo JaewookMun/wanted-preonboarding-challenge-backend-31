@@ -1,3 +1,13 @@
 spring:
   application:
     name: cqrs-system
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cqrs_system
+    username: mun1103
+    password: mun1103
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
