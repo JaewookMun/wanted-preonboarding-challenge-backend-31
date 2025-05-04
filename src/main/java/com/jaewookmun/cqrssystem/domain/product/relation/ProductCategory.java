@@ -1,6 +1,7 @@
-package com.jaewookmun.cqrssystem.domain.product;
+package com.jaewookmun.cqrssystem.domain.product.relation;
 
 import com.jaewookmun.cqrssystem.domain.classification.Category;
+import com.jaewookmun.cqrssystem.domain.product.Product;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
